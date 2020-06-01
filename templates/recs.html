@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+   </head>
+
+   <body>
+      <button type="button" style="height:50px;width:80px;"><a href="/" style="color:#000;text-decoration:none;">Home</a></button>
+      <div style="display:flex;align-items:center;flex-direction:column;">
+         {% for i in range(images|length) %}
+            <img style="height:450px;margin-top:10px;margin-bottom:10px;" src="{{images[i]}}"/>
+         {% endfor %}
+      </div>
+   </body>
+</html>

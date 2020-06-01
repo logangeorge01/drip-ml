@@ -1,0 +1,7 @@
+https://download.pytorch.org/whl/cpu/torch-1.1.0-cp36-cp36m-linux_x86_64.whl
+https://download.pytorch.org/whl/cpu/torchvision-0.3.0-cp36-cp36m-linux_x86_64.whl
+fastai==1.0.61
+Flask==1.1.2
+Werkzeug==0.16.0
+gunicorn==19.9.0
+annoy==1.16.3
